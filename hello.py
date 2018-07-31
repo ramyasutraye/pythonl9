@@ -1,3 +1,3 @@
-n=input()
+n=int(input())
 for i in xrange(n):
-	print('hello')
+	print('Hello')
