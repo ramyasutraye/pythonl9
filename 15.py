@@ -1,4 +1,8 @@
-n,k=map(int,raw_input().split())
+n,k=input().split()
+n,k=int(n),int(k)
+print(n)
+print(k)
 for i in range (n,k):
-	if ((i%2)==0 and i!=n and i!=k):
-		print(i)
+	if i>n and i<k:
+		if i%2==0:
+			print(i,end=' ')
