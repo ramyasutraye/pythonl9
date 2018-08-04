@@ -1,9 +1,9 @@
-k=int(input())
+k=input()
 l=[int(x) for x in input().split()]
-for i in range(0,k):
-    a=l[i]
-    while(a==i):
-        print(a,end=' ')
-        i+=1
-else:
+c=0
+for i in range(len(l)):
+    if (i==l[i]):
+        print(i,end=' ')
+        c+=1
+if(c==0):
     print('-1')
