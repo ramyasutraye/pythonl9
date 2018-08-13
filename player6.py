@@ -1,7 +1,7 @@
-a=input.split()
-x=list(set(a[0]))
-y=list(set(a[1]))
-if (len(x)==len(y)):
+let=input()
+a=list(set(let[0]))
+b=list(set(let[1]))
+if (len(a)==len(b)):
     print("yes")
 else:
     print("no")
