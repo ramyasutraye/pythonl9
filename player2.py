@@ -1,6 +1,6 @@
-z=int(input())
-c=1
-while(z>=2):
-	c=c*z*(z-1)
-	z-=2
-print(c)
+f=int(input())
+p=1
+while(f>=2):
+	p=p*f*(f-1)
+	f-=2
+print(p)
