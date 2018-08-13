@@ -1,4 +1,4 @@
-a=[str(x) for x in input()]
+a=str(input())
 c=a.replase(" ","")
-print(len(a))
+print(len(c))
 
