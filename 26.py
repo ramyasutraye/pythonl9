@@ -1,5 +1,5 @@
-a=int(input())
-b=[int(y) for y in input().split()]
-s=sorted(b)
-for x in range(a):
-    print(s[x],end=' ')
+z=int(input())
+c=[int(y) for y in input().split()]
+r=sorted(b)
+for x in range(z):
+    print(r[x],end=' ')
