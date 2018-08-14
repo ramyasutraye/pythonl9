@@ -1,4 +1,4 @@
 a=str(input())
-c=a.replase(" ","")
+c=a.replace(" ","")
 print(len(c))
 
