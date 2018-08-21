@@ -1,4 +1,4 @@
-list={'monday':1,'tuesday':1,'wednesday':1,'thursday':1,'friday':1}
+list={'Monday','Tuesday','Wednesday','Thursday','Friday'}
 x=input()
 if x in list:
     print("no")
